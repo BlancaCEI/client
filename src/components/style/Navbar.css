@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+#navbar{
+ background-color: #F36F5E;
+ font-family: 'Open sans', sans-serif;
+ color: white;
+ text-decoration: none;
+ font-weight: 600;
+ font-size: 18px;
+ margin: 0;
+ padding-top: 0.5em;
+ padding-bottom: 0.6em;
+ padding-right: 4em;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+  }
+.col-12{
+    padding-top: 0.6em;
+    text-align: right;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo{
+    width: 3.5em;
+    margin-left: 2em;
+}
+
+
+
+@media (max-width: 540px) {
+    .col-12{
+        padding-top: 0em;
+    }
+    #navbar{
+        font-size: 15px;
+        margin: 0;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 2em;
+       }
+    .logo{
+        margin-left: 1em;
+    }
+}

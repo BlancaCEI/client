@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+#edit-page {
+  background-color: #f36f5e64;
+  width: 100%;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5em;
+  padding-top: 3em;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+#edit {
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+#h2_editar {
+  padding-top: 0.3em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  padding-top: 0.5em;
+}
+
+#nom1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+#ing1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+#des1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.nombre_plato {
+  display: flex;
+  flex-direction: column;
+
+}
+.ingredientes_plato {
+  display: flex;
+  flex-direction: column;
+}
+.descripcion_plato {
+  display: flex;
+  flex-direction: column;
+}
+
+#actualizar{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    width: auto;
+    background-color: #f36f5e;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1em;
+}
+
+
+.form_editar input[type="text"] {
+  width: 100%;
+  padding: 0.5em;
+  margin-right: 1em;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.form_editar textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-right: 1em;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    #edit {
+        width: 90%;
+    }
+}

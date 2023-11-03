@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+#crear_platos {
+  background-color: #f36f5e64;
+  width: 100%;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 3em;
+}
+#form_platos {
+  padding: 0;
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+}
+.h2crear {
+  padding-top: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+.form_crear2 {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nombre,
+.descripcion {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_crear2 input[type="text"] {
+  width: 100%;
+  padding: 0.5em;
+  margin-right: 1em;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.form_crear2 textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-right: 1em;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.form_crear2 input[type="submit"] {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  width: auto;
+  background-color: #f36f5e;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.form_crear2 input[type="submit"]:hover {
+  background-color: #e35546;
+}
+
+#link_recetas {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #f36f5e;
+  display: flex;
+  justify-content: end;
+  margin: auto;
+  padding-right: 2em;
+  padding-bottom: 2em;
+}
+
+@media (max-width: 800px) {
+  #form_platos {
+    width: 100%;
+  }
+
+  #form_platos {
+    padding: 0;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+  }
+}

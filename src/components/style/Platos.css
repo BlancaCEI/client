@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+#platos-page {
+  background-color: #f36f5e64;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5em;
+}
+
+.titulo {
+  padding-top: 1.5em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+#boton_crear {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  width: auto;
+  background-color: #f36f5e;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.elemento_plato {
+  justify-content: center;
+  list-style: none;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  padding: 0;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+#nombre-borrar {
+  background-color: #f36f5ec2;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  list-style: none;
+  border-radius: 10px;
+  border: 2px solid #f36f5e;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  margin-top: 1em;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+}
+#nombre_plato {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#boton_plato {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-left: auto;
+  color: #ffffff;
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin-left: 0.6em;
+  cursor: pointer;
+  border: 0;
+}
+#descripcion-1 {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  list-style: none;
+  border-radius: 10px;
+  margin-top: 0;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+#descripcion-2 {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  list-style: none;
+  border-radius: 10px;
+  margin-top: 0;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.elemento_plato button {
+  margin-left: auto;
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: 0.6em;
+  cursor: pointer;
+  background-color: #cccccc00;
+  border: 0;
+}
+#h3_plato {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+@media (max-width: 800px) {
+  #lista_platos {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+  }
+  .elemento_plato {
+    width: 100%;
+  }
+}

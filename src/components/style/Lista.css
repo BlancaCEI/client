@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+#lista-page{
+  background-color: #f36f5e64;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5em;
+  padding-top: 2em;
+}
+.titulolista{
+    padding-top: 0.5em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+#add_lista{
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    padding-left: 3em;
+    padding-right: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.form_crear{
+    margin: 0;
+    margin-top: 2em;
+    padding: 0; 
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding-bottom: 2em;
+}
+.form_crear input[type="text"] {
+  width: auto;
+  padding: 0.5em;
+  margin-right: 1em;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin: 0;
+  
+  }
+  
+.form_crear input[type="submit"] {
+  width: auto;
+  margin: 0;
+  background-color: #f36f5e;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  }
+
+.form_crear input[type="submit"]:hover {
+    background-color: #e35546;
+}
+
+#lista_compra{
+    margin: 0;
+    padding: 0;
+   
+}
+
+#row_lista{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.elemento_lista{
+    background-color: #f36f5ec2;
+    list-style:none;
+    border-radius: 10px;
+    border: 2px solid #f36f5e;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    margin-top: 1em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.elemento_lista input{
+    margin-left: auto;
+}
+
+.elemento_lista input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+
+}
+.elemento_lista button {
+    color: #ffffff;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-left: 0.6em;
+    cursor: pointer;
+    background-color:#cccccc00;
+    border: 0;
+}
+
+  @media (max-width: 768px) { /* Estilos para pantallas más pequeñas */
+    #add_lista {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    
+    .form_crear {
+      margin-top: 30px;
+      flex-direction: column;
+    }
+    
+    .form_crear input[type="text"] {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .elemento_lista {
+      width: 100%;
+      font-size: 15px;
+    }
+    
+    .elemento_lista button {
+      margin-left: 0.5em;
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+    }
+  }
