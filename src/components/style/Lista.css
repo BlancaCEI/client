@@ -135,10 +135,11 @@ ul{
     border: 0;
 }
 
-  @media (max-width: 768px) { /* Estilos para pantallas más pequeñas */
+  @media (max-width: 800px) {
     #add_lista {
       margin-top: 30px;
       margin-bottom: 30px;
+      width: 80%;
     }
     
     .form_crear {
